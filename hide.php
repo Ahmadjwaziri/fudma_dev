@@ -17,7 +17,7 @@ $(document).ready(function() {
 <!-- Add id to select element -->
 <select class="form-control selectpicker" data-live-search="true" name="dmode" id="dmode">
     <option><?php //echo $app_row['mode_of_delivery'];?></option>
-    <option value="electronic">Electronic Delivery</option>
+    <option value="electronic">Electronics Delivery</option>
     <option value="paper">Paper</option>
 </select>
 
