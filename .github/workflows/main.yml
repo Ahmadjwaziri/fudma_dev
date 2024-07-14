@@ -18,4 +18,5 @@ jobs:
         run: |
           pwd
           sudo rm -rf /var/www/html/*
-          sudo cp -r _work/* /var/www/html/
+          sudo cp -r ./* /var/www/html/
+
