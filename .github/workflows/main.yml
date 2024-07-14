@@ -16,5 +16,6 @@ jobs:
 
       - name: Copy Files to Apache Server
         run: |
+          pwd
           sudo rm -rf /var/www/html/*
           sudo cp -r _work/* /var/www/html/
