@@ -85,7 +85,7 @@ $pdf->SetAlpha(0.3);
 
 
 // draw jpeg image
-$pdf->Image('images/logo.png', 67, 100, 80, 80, '', '', '', true, 72);
+$pdf->Image('images/fudma.png', 67, 100, 80, 80, '', '', '', true, 72);
 
 // restore full opacity
 $pdf->SetAlpha(1);
@@ -112,7 +112,7 @@ $html = '
 <span style="text-align:center;"><img src="images/logo.png" WIDTH="100">
 <br>
 
-<b style="font-size: 15; color: white; background-color:blue;"><span style="background-color:black">'.$pdf_row['mode_of_delivery'].' TRANSCRIPT APPLICATION FORM<span></b>
+<b style="font-size: 15; color: white; background-color:blue;"><span style="background-color:black">'.strtoupper($pdf_row['mode_of_delivery']).' TRANSCRIPT APPLICATION FORM<span></b>
 </span>
 
 <br>
