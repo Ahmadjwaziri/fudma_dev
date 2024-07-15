@@ -109,7 +109,7 @@ $pdf->Image('../../'.$pdf_row['pic'].'', 170, 35, 30, 30, '', '', '', true, 72);
 
 
 $html = '
-<span style="text-align:center;"><img src="images/logo.png" WIDTH="100">
+<span style="text-align:center;"><img src="images/fudma.png" WIDTH="100">
 <br>
 
 <b style="font-size: 15; color: white; background-color:blue;"><span style="background-color:black">'.strtoupper($pdf_row['mode_of_delivery']).' TRANSCRIPT REQUEST FORM<span></b>
