@@ -224,7 +224,7 @@ $html = '
 </tr>
 <tr style="text-align:left;background-color:#F3F3F3;">
 <td>RECIPIENT EMAIL</td>
-<td>'.$pdf_row['refphone'].'</td>
+<td>'.$pdf_row['recipient_email'].'</td>
 </tr>
 
 <tr style="text-align:left;background-color:#F3F3F3;">
