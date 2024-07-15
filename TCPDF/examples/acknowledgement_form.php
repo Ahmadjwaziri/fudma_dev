@@ -209,32 +209,7 @@ $html = '
 
 
 
-<table>
 
-<h3>NEXT OF KIN DETAIL:</h3>
-<hr>
-
-<tr style="text-align:left;background-color:#F3F3F3;">
-<td>FATHER NAME</td>
-<td>'.$pdf_row['fathername'].'</td>
-</tr>
-<tr style="text-align:left;background-color:#F3F3F3;">
-<td>FATHER PHONE</td>
-<td>'.$pdf_row['fatherphone'].'</td>
-</tr>
-
-<tr style="text-align:left;background-color:#F3F3F3;">
-<td>MOTHER NAME</td>
-<td>'.$pdf_row['mothername'].'</td>
-</tr>
-<tr style="text-align:left;background-color:#F3F3F3;">
-<td>MOTHER PHONE</td>
-<td>'.$pdf_row['motherphone'].'</td>
-</tr>
-
-
-<br>
-</table>
 
 
 
