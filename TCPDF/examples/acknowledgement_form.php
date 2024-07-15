@@ -112,7 +112,7 @@ $html = '
 <span style="text-align:center;"><img src="images/logo.png" WIDTH="100">
 <br>
 
-<b style="font-size: 15; color: white; background-color:blue;"><span style="background-color:black">'.strtoupper($pdf_row['mode_of_delivery']).' TRANSCRIPT APPLICATION FORM<span></b>
+<b style="font-size: 15; color: white; background-color:blue;"><span style="background-color:black">'.strtoupper($pdf_row['mode_of_delivery']).' TRANSCRIPT REQUEST FORM<span></b>
 </span>
 
 <br>
