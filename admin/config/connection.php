@@ -1,4 +1,4 @@
 <?php
-$dBASE = mysqli_connect('localhost','misjsiit_app','Samiu987$','misjsiit_app');
+$dBASE = mysqli_connect('192.168.78.215','mis','Mis@2024','fudma_tps');
 
-?>
+
