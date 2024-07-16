@@ -100,7 +100,7 @@ include 'config/connection.php';
             <div class="col-md-6">
                 <div class="container-instructions">
                     
-                    <h2>Instructions:Student Transcript Payment & Processing</h2>
+                    <h2>Instructions:</h2>
 
     <ul>
         <li>Click on <strong>New Application</strong> to verify your identity and create account</li>
