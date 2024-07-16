@@ -126,7 +126,7 @@ include 'config/connection.php';
                             <div class="face front"> 
                                 <div class="panel panel-default">
                                     <form class="form-horizontal" name="sign_in_form" id="sign_in_form">
-                                        <h1 class="text-center"><img  src="img/fudma.png" width="100"></h1>
+                                        <h2 class="text-center"><img  src="img/fudma.png" width="100"></h2>
                                         <center><h4>TPS Portal</h4></center>
                                         <br>
                                         <input class="form-control" placeholder="Email" id="email" name="email" type="email" autocomplete="on" required="true" />
