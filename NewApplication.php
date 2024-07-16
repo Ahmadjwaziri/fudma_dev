@@ -130,7 +130,7 @@ include 'config/connection.php';
                                   -->
                                  <form method="post" action="">
                                  <input class="form-control" placeholder="Matric Number" name="matric_no" id="matric_no" type="text" autocomplete="on" required="true" />
-                                <button class="btn btn-primary btn-block" type="submit" name="submit" >Validate</button>
+                              <p>  <button class="btn btn-primary btn-block" type="submit" name="submit" >Validate</button></p>
     </form> 
     <?php
 if (isset($_POST['submit'])) {
