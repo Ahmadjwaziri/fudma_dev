@@ -1,4 +1,4 @@
-<?php 
+<p?php 
 ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 include 'config/connection.php';
 ?>
@@ -125,14 +125,14 @@ include 'config/connection.php';
                         <div class="card"> 
                             <div class="face front"> 
                                 <div class="panel panel-default">
-                                    <form class="form-horizontal" name="sign_in_form" id="sign_in_form">
+                                    <class="form-horizontal" name="sign_in_form" id="sign_in_form">
                                         <h2 class="text-center"><img  src="img/fudma.png" width="100"></h2>
                                         <center><h4>TPS Portal</h4></center>
                                         <br>
                                         <input class="form-control" placeholder="Email" id="email" name="email" type="email" autocomplete="on" required="true" />
                                         <input class="form-control" placeholder="Password" id="password" name="password" type="password" required="true" />
                                         <p id="sign_in_result"><button class="btn btn-primary btn-block" id="btn_sign_in">SIGN IN</button></p>
-        <a href="NewApplication.php">New Application</a> || <a href="ForgotPassword.php">Forgot Password</a>
+                                        <p>  <a href="NewApplication.php">New Application</a> || <a href="ForgotPassword.php">Forgot Password</a> </p>
                                         <div id="haqq"></div>
                                         
                                         
