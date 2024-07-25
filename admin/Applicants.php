@@ -45,8 +45,8 @@
                                 <thead>
                                 <tr>
                                     <th style="width: 10%;">id#</th>
-                                    <th style="width: 20%;">FullName</th>
-                                    <th style="width: 20%;">AppID</th>
+                                    <th style="width: 20%;">MatricNo</th>
+                                    <th style="width: 20%;">RequestID</th>
                                     <th style="width: 20%;">Application Status</th>
                                     <th style="width: 10%;">Payment Status</th>
                                     <th style="width: 20%;">Actions</th>
@@ -57,16 +57,16 @@
 
 <?php
 $i = 1;
-$query = $dBASE->query("SELECT * FROM applicants ORDER BY id DESC");
+$query = $dBASE->query("SELECT * FROM transcript_request ORDER BY id DESC");
 
 while ($row = $query->fetch_array()) {
    echo '<tr>
    <td>'.$i++.';</td>
-                                       <td>'.$row['fullname'].'</td>
-                                       <td>'.$row['appid'].'</td>
-                                       <td>'.$row['app_status'].'</td>
+                                       <td>'.$row['app_id'].'</td>
+                                       <td>'.$row['reference_id'].'</td>
+                                       <td>'.$row['application_status'].'</td>
                                        <td>'.$row['payment_status'].'</td>
-                                       <td><a href="ApplicantView?id='.$row['appid'].'" class="btn btn-success btn-xs">View</a></td>
+                                       <td><a href="ApplicantView?id='.$row['app_id'].'" class="btn btn-success btn-xs">View</a></td>
                                    </tr>';
 }
 

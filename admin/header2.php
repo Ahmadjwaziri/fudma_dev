@@ -20,8 +20,8 @@ if (isset($_SESSION['staffid'])) {
 <html lang="en">
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
-    <title>JSIIT Kazaure</title>
-    <link rel="icon" type="image/png"  href="img/logo.png" />
+    <title>TPS FUDMA</title>
+    <link rel="icon" type="image/png"  href="img/fudma.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="QVLz2OyOFnao3cpU9kvorOhlfzHKWpFUnrSfXyez" />
 
@@ -67,7 +67,7 @@ if (isset($_SESSION['staffid'])) {
 <nav id="left-nav" class="left-nav-bar">
     <div class="nav-top-sec">
         <div class="app-logo">
-            <h3>JSIIT</h3>
+            <h3>FUDMA-TPS</h3>
         </div>
 
         <a href="#" id="bar-setting" class="bar-setting"><i class="fa fa-bars"></i></a>
@@ -91,6 +91,7 @@ if (isset($_SESSION['staffid'])) {
 <?php }else if($_SESSION['role'] == "ADMIN"){?>
                         
 <li ><a href="Users"><span class="menu-text">Manage Staffs</span> <span class="menu-thumb"><i class="fa fa-users"></i></span></a></li>
+<li ><a href="Applicants"><span class="menu-text">Transcript Request</span> <span class="menu-thumb"><i class="fa fa-list"></i></span></a></li>
             
 <?php }else if($_SESSION['role'] == "STUDENT"){?>
 

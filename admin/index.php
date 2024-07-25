@@ -9,11 +9,11 @@ include 'config/connection.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Jigawa State Institute of Information, Technology, Kazaure">
-    <meta name="author" content="Samiul Haqq">
-    <link rel="icon" href="img/logo.png">
+    <meta name="description" content="FUDMA TPS">
+    <meta name="author" content="Ahmad Jafar Waziri">
+    <link rel="icon" href="img/fudma.png">
 
-    <title>JSIIT Kazaure - Administrative</title>
+    <title>TPS-FUDMA - Administrative</title>
 
     <!-- Bootstrap core CSS -->
     <link href="build/css/bootstrap.min.css" rel="stylesheet">
@@ -77,7 +77,7 @@ include 'config/connection.php';
                    <form class="form-horizontal" name="sign_in_form" id="sign_in_form">
                
 
-                <h1 class="text-center"><img  src="img/logo.png" width="100"></h1>
+                <h1 class="text-center"><img  src="img/fudma.png" width="100"></h1>
                 <center><h4>Administrative Panel</h4></center>
 
 
