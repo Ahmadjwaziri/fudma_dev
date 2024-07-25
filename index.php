@@ -151,7 +151,7 @@ include 'config/connection.php';
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p>&copy; 2024 Federal University Dutsinma. All rights reserved.</p>
+                    <p>&copy; 20241 Federal University Dutsinma. All rights reserved.</p>
                 </div>
             </div>
         </div>
